@@ -1,26 +1,14 @@
 Tiffany Neumann
 tjn2124
+A computer program in Java that allows a user to play this game against a computer. 
 
 Programming Project 3.
 
-
 PART 1
 
-For part one, in the Game class, I started by creating 3 instance
-variables, one for each player and a scanner, since I needed to get the 
-human players score. I also instantiated both p1 and p2 in the first game()
-method and realized I didn't need p2 in the interative game because I could 
-just assign the human player its own variable that only exists within the
-play() method for the interative game. Similarly I designed the interative 
-play() method to execute the sum and winner and losers tokens all within the 
-play() method. In part one I am only using the player class in order to 
-set the computer player's move, which is done in the Player class in the Value()
-method. I did this because I will also use the Value() method from the Player 
-class for part 2. I realized the scores could be kept more simpily inside of
-one short and concise method inside the game class which that is why I didn't
-use the getp1Score() and getp2Score() for part one. It just seemed simpler to 
-do it in the play() method. Also for part one player 1, the human, 
-is even player and odd is the computer player. 
+The computer player has a threshold variable, t. The computer will generate a random
+number between 0 and 1. If the number is greater than t the computer will declare “two” 
+if the random number is less than t the computer will declare "one". 
 
 
 
