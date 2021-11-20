@@ -2,6 +2,7 @@ Tiffany Neumann
 tjn2124
 A computer program in Java that allows a user to play this game against a computer. 
 
+
 Programming Project 3.
 
 PART 1
@@ -17,6 +18,7 @@ PART 2
 
 Game/Player Classes
 
+When a game is instantiated one may specify whether or not it is interactive or simulated.
 For part two I instantiated both p1 and p2 because they are both going to have 
 their own thresholds and moves which are calculated by calling the player class
 methods addScore(int tokens), subtractScore(int tokens), and getScore().
