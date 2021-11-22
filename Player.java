@@ -18,9 +18,9 @@ public class Player{
         score=0;
     }     
     //Here the Value() method is called from the game() class and
-    //in both versions of the play methods. It gets the computer
-    //players moves for each turn they take in both interative and
-    //computer against computer games. 
+    //in both versions of the play methods it gets the computer
+    //player's moves for each turn they take in both interative and
+    //in the computer against computer games. 
     public int Value(){
         int randomValue = 0;
         if (Math.random()>t) { 
